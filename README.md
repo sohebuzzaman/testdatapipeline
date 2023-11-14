@@ -40,9 +40,9 @@ This project is a beginner-friendly sample test automation framework designed fo
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository_url>
+   clone https://github.com/sohebuzzaman/testdatapipeline.git
    ```
-   Replace `<repository_url>` with the URL of your GitHub repository.
+   
 
 2. **Install Dependencies:**
    ```bash
