@@ -14,18 +14,25 @@ This project is a beginner-friendly sample test automation framework designed fo
 ## Project Structure
 
 ```
-|-- /tests
-|   |-- test_data_pipeline.py
-|   |-- test_dashboard_visualization.py
+|-- /foundation
+|   |-- /docs
 |-- /src
-|   |-- /utilities
-|       |-- pipeline_validator.py
-|       |-- visualization_checker.py
-|-- config.ini
-|-- pytest.ini
-|-- requirements.txt
-|-- setup.py
+|   |-- /modules
+|   |-- main_functionality.py
+|   |-- database_connection.py
+|-- /utilities
+|           |-- chrome_driver
+|           |-- pytest.ini
+|           |-- requirements.txt
+|           |-- setup.py
+|-- /config
+|       |-- config.ini
+|       |-- logconfig.ini
+|-- /test_cases
+|   |-- test_suite.py
 |-- main.py
+|-- /execution_logs
+|-- /test_reports
 |-- README.md
 ```
 
